@@ -1,0 +1,50 @@
+rpanacci@georgebrown.ca (slack preferred)
+
+"so just to be 100% sure, the lab is just super basic html / css such  has h1/h2/h3/h4/etc.. p tags and sections / divs? can we setup classes / ids if we want to?"
+
+- Start by designing for mobile for 1st lab (skinny screen, 320px)
+- Pick the right type of elements (colors, fonts, type setting)
+- Name colours
+
+h1 - Old-fashioned Rice Pudding
+	h2 - Background Story
+		h3 - Culture
+		h3 - History
+		h3 - My experiences
+	h2 - Ingredients
+		h3 - White rice
+		h3 - White sugar
+		h3 - Table salt
+		h3 - Powder
+		h3 - cinnamon (optional)
+	h2 - Equipment
+		h3 - stove
+		h3 - Small pot
+		h3 - Measuring cup
+	h2 - Process
+		h3 - Mixing
+		h3 - Boiling
+
+Content List
+
+
+
+CSS - variable name examples
+
+:root {
+	--col-bg: gold;
+	--col-bg-on: #111;
+
+	--col-error: tomatoa;
+	--col-error-on: #fff;
+
+	--font-heading: helvetica, sans-serif;
+
+	--animation: 300ms;
+	--padding: 1em;
+}
+
+body {
+	background-color: var(--col-bg)
+	color: var(--col-bg-on);
+}

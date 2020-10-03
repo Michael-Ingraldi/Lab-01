@@ -1,0 +1,19 @@
+:root {
+	--col-bg: gold;
+	--col-bg-on: #111;
+
+	--col-error: tomatoa;
+	--col-error-on: #fff;
+
+	--font-heading: helvetica, sans-serif;
+
+	--animation: 300ms;
+	--padding: 1em;
+}
+
+
+
+body {
+	background-color: var(--col-bg)
+	color: var(--col-bg-on);
+}
