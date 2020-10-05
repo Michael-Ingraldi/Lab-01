@@ -3,7 +3,7 @@
 	margin: 1em;
 	display: grid;
 	grid-template-columns: 200px auto;
-	grid-template-rows: 250px 2fr 2fr;
+	grid-template-rows: 230px 1fr 2fr;
 	grid-template-areas:
 							"title      title"
 							"ingredients main"
@@ -29,10 +29,8 @@
 }
 
 .process {
-	grid-area: process;
+	grid-area: main;
 	background-color: rgba(255, 255, 255, 0.8);
-	grid-column: 2/3;
-	grid-row: 2/4;
 	color: #0265c0;
 }
 
@@ -44,15 +42,13 @@
 .top {
 	grid-area: title;
 	background-color: #0265c0;
-	grid-column: 1/3;
-	grid-row: 1/2;
 }
 
 .footer-content {
 	grid-area: footer;
 	background-color: #0265c0;
-	grid-column: 1/3;
 	text-align: center;
 	font-size: 10pt;
+	padding: 20px;
 }
 
