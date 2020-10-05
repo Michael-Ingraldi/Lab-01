@@ -59,6 +59,7 @@ h1 {
 	font-family: "Hyatheus";
 	letter-spacing: 0.1em;
 	font-size: 28pt;
+	text-overflow: clip;
 }
 
 h2 {
@@ -85,10 +86,6 @@ General styling
 .navbar {
 	/* display: flex; */
 	/* justify-content: space-between; */
-}
-
-li {
-	display: inline;
 }
 
 img {

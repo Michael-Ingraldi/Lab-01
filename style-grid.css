@@ -3,7 +3,7 @@
 	margin: 1em;
 	display: grid;
 	grid-template-columns: 200px auto;
-	grid-template-rows: 340px 1fr 1fr;
+	grid-template-rows: 480px 1fr 1fr;
 	grid-template-areas:
 							"title      title"
 							"ingredients ingredients"
@@ -12,7 +12,19 @@
 							"footer    footer";
 }
 
-@media screen and (min-width: 600px) {
+h2, li {
+	display: flex;
+	justify-content: center;
+}
+
+li {
+	margin-right: 40px;
+} /* Corrects strange off-centered behaviour */
+
+
+
+
+@media screen and (min-width: 800px) {
 	.site {
 	margin: 1em;
 	display: grid;
@@ -24,7 +36,16 @@
 							"equipment   main"
 							"footer    footer";
 	}
+
+	li {
+		display: inline;
+		margin-right: 0px;
+	}
+
+
 }
+
+
 
 
 
