@@ -3,13 +3,29 @@
 	margin: 1em;
 	display: grid;
 	grid-template-columns: 200px auto;
+	grid-template-rows: 320px 1fr 1fr;
+	grid-template-areas:
+							"title      title"
+							"ingredients ingredients"
+							"equipment   equipment"
+							"main        main"
+							"footer    footer";
+}
+
+@media screen and (min-width: 600px) {
+	.site {
+	margin: 1em;
+	display: grid;
+	grid-template-columns: 200px auto;
 	grid-template-rows: 230px 1fr 2fr;
 	grid-template-areas:
 							"title      title"
 							"ingredients main"
 							"equipment   main"
 							"footer    footer";
+	}
 }
+
 
 
 .ingredients,
