@@ -3,13 +3,13 @@
 	margin: 1em;
 	display: grid;
 	grid-template-columns: 200px auto;
-	grid-template-rows: 480px 1fr 1fr;
+	grid-template-rows: 460px 1fr 1fr;
 	grid-template-areas:
-							"title      title"
-							"ingredients ingredients"
-							"equipment   equipment"
-							"main        main"
-							"footer    footer";
+						"title      title"
+						"ingredients ingredients"
+						"equipment   equipment"
+						"main        main"
+						"footer    footer";
 }
 
 h2, li {
@@ -17,11 +17,49 @@ h2, li {
 	justify-content: center;
 }
 
+h1 {
+	font-size: 20pt;
+}
+
 li {
 	margin-right: 40px;
-} /* Corrects strange off-centered behaviour */
+} /* Compensates for strange off-centered behaviour */
 
 
+/* ////////////////////////////////////////////////// */
+
+
+@media screen and (min-width: 600px) {
+	.site {
+		margin: 1em;
+		display: grid;
+		grid-template-columns: 200px auto;
+		grid-template-rows: 480px 1fr 1fr;
+		grid-template-areas:
+							"title      title"
+							"ingredients ingredients"
+							"equipment   equipment"
+							"main        main"
+							"footer    footer";
+}
+
+	h2, li {
+		display: flex;
+		justify-content: center;
+	}
+
+	h1 {
+		font-size: 28pt;
+	}
+
+	li {
+		margin-right: 40px;
+	} /* Compensates for strange off-centered behaviour */
+
+}
+
+
+/* ////////////////////////////////////////////////// */
 
 
 @media screen and (min-width: 800px) {
@@ -37,6 +75,10 @@ li {
 							"footer    footer";
 	}
 
+	h1 {
+		font-size: 28pt;
+	}
+
 	li {
 		display: inline;
 		margin-right: 0px;
@@ -46,7 +88,7 @@ li {
 }
 
 
-
+/* ////////////////////////////////////////////////// */
 
 
 .ingredients,
