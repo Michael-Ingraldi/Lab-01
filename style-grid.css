@@ -1,0 +1,43 @@
+@font-face {
+	font-family: Hyatheus;
+	src: url(Hyatheus-1.2.0.otf);
+}
+
+.site {
+	display: grid;
+	grid-template-columns: 200px auto;
+	grid-template-rows: 200px 2fr 2fr;
+}
+
+.navbar {
+	background-color: grey;
+	display: flex;
+	justify-content: space-between;
+}
+
+a {
+	background-color: white;
+	color: #0265c0;
+	padding: 0.5em 1.5em;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: bold;
+	border-radius: 5px;
+  }
+
+a:hover {
+	background-color: #268eee;
+	color: white;
+  }
+
+  h1 {
+	font-family: "Hyatheus";
+	letter-spacing: 0.1em;
+	font-size: 28pt;
+}
+
+h2 {
+	font-family: "Hyatheus";
+	letter-spacing: 0.1em;
+}
+
