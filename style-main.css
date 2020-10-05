@@ -87,23 +87,24 @@ General styling
 	justify-content: space-between;
 }
 
-a {
-	background-color: white;
-	color: #0265c0;
-	padding: 0.3em 1em;
-	text-decoration: none;
-	text-transform: uppercase;
-	font-weight: bold;
-	border-radius: 5px;
-  }
-
-a:hover {
-	background-color: #268eee;
-	color: white;
-  }
-
 img {
 	width: 100%;
 	height: auto;
 	max-width: 768px;
 }
+
+.button {
+	border-radius: 5px;
+	background-color: white;
+	color: #0265c0;
+	text-transform: uppercase;
+	font-weight: bold;
+	cursor: pointer;
+	border: none;
+	padding: 0.2em 1em;
+}
+
+.button:hover {
+	background-color: #268eee;
+	color: white;
+  }
