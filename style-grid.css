@@ -1,7 +1,3 @@
-@font-face {
-	font-family: Hyatheus;
-	src: url(Hyatheus-1.2.0.otf);
-}
 
 .site {
 	margin: 1em;
@@ -15,46 +11,48 @@
 							"footer    footer";
 }
 
-.navbar {
-	/* display: flex; */
-	justify-content: space-between;
+
+.ingredients,
+.process,
+.equipment,
+.top,
+.footer-content {
+	padding-left: 1em;
+	padding-right: 1em;
+    color: white;
+
 }
 
-a {
-	background-color: white;
+.ingredients {
+	grid-area: ingredients;
+    background-color: #268eee;
+}
+
+.process {
+	grid-area: process;
+	background-color: rgba(255, 255, 255, 0.8);
+	grid-column: 2/3;
+	grid-row: 2/4;
 	color: #0265c0;
-	padding: 0.3em 1em;
-	text-decoration: none;
-	text-transform: uppercase;
-	font-weight: bold;
-	border-radius: 5px;
-  }
-
-a:hover {
-	background-color: #268eee;
-	color: white;
-  }
-
-
-h1 {
-	font-family: "Hyatheus";
-	letter-spacing: 0.1em;
-	font-size: 28pt;
 }
 
-h2 {
-	font-family: "Hyatheus";
-	letter-spacing: 0.1em;
+.equipment {
+	grid-area: equipment;
+    background-color: #268eee;
 }
 
-h3 {
-	font-size: 14pt;
-	font-weight: normal;
+.top {
+	grid-area: title;
+	background-color: #0265c0;
+	grid-column: 1/3;
+	grid-row: 1/2;
 }
 
+.footer-content {
+	grid-area: footer;
+	background-color: #0265c0;
+	grid-column: 1/3;
+	text-align: center;
+	font-size: 10pt;
+}
 
-@media only screen and (max-width: 600px) {
-	.navbar {
-		background-color: grey;
-	}
-  }
