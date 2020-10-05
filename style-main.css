@@ -84,7 +84,11 @@ General styling
 
 .navbar {
 	/* display: flex; */
-	justify-content: space-between;
+	/* justify-content: space-between; */
+}
+
+li {
+	display: inline;
 }
 
 img {
