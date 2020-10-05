@@ -4,21 +4,26 @@
 }
 
 .site {
+	margin: 1em;
 	display: grid;
 	grid-template-columns: 200px auto;
-	grid-template-rows: 200px 2fr 2fr;
+	grid-template-rows: 250px 2fr 2fr;
+	grid-template-areas:
+							"title      title"
+							"ingredients main"
+							"equipment   main"
+							"footer    footer";
 }
 
 .navbar {
-	background-color: grey;
-	display: flex;
+	/* display: flex; */
 	justify-content: space-between;
 }
 
 a {
 	background-color: white;
 	color: #0265c0;
-	padding: 0.5em 1.5em;
+	padding: 0.3em 1em;
 	text-decoration: none;
 	text-transform: uppercase;
 	font-weight: bold;
@@ -30,7 +35,8 @@ a:hover {
 	color: white;
   }
 
-  h1 {
+
+h1 {
 	font-family: "Hyatheus";
 	letter-spacing: 0.1em;
 	font-size: 28pt;
@@ -41,3 +47,14 @@ h2 {
 	letter-spacing: 0.1em;
 }
 
+h3 {
+	font-size: 14pt;
+	font-weight: normal;
+}
+
+
+@media only screen and (max-width: 600px) {
+	.navbar {
+		background-color: grey;
+	}
+  }
