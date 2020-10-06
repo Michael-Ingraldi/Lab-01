@@ -79,6 +79,10 @@ li {
 		font-size: 28pt;
 	}
 
+	.ingredients h2, .equipment h2 {
+		margin-right: 30px;
+	} /* Compensates for inexplicable text gap */
+
 	.navbar li {
 		display: inline;
 		margin-right: 0px;
