@@ -59,8 +59,8 @@ h1 {
 	font-family: "Hyatheus";
 	letter-spacing: 0.1em;
 	font-size: 28pt;
-	text-overflow: clip;
 	margin-left: 12px;
+	margin-bottom: 20px;
 }
 
 h2 {
@@ -91,7 +91,7 @@ General styling
 .navbar {
 	/* display: flex; */
 	/* justify-content: space-between; */
-	margin-top: 30px;
+	margin-top: 34px;
 }
 
 img {
