@@ -66,7 +66,7 @@ li {
 	.site {
 	margin: 1em;
 	display: grid;
-	grid-template-columns: 200px auto;
+	grid-template-columns: 230px auto;
 	grid-template-rows: 230px 1fr 2fr;
 	grid-template-areas:
 							"title      title"
@@ -79,9 +79,13 @@ li {
 		font-size: 28pt;
 	}
 
-	li {
+	.navbar li {
 		display: inline;
 		margin-right: 0px;
+	}
+
+	li {
+		justify-content: left;
 	}
 
 
@@ -104,7 +108,8 @@ li {
 
 .ingredients {
 	grid-area: ingredients;
-    background-color: #268eee;
+	background-color: #268eee;
+	display: block;
 }
 
 .process {
