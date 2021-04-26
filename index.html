@@ -4,10 +4,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Old-Fashioned Rice Pudding</title>
+    <title>Michael Ingraldi's Portfolio</title>
     <link href="https://fonts.googleapis.com/css?family=PT+Serif:400,400i,700,700i|Source+Sans+Pro:400,400i,600,600i" rel="stylesheet">
     <link rel="stylesheet" href="style-main.css" type="text/css" media="all">
 	<link rel="stylesheet" href="style-grid.css" type="text/css" media="all">
+
+    <script type="text/javascript" src="js/jquery-3.5.1.js"></script>
+
 </head>
 
 <body class="site">
@@ -15,67 +18,170 @@
 
 
     <header class="top">
-        <h1>Old-Fashioned Rice Pudding</h1>
-        <strong class="subtitle">A Hellenic take on a worldwide classic.</strong>
+        <h1>Michael Ingraldi</h1>
+        <strong class="subtitle">Digital Web Portfolio</strong>
         <br>
         <ul class="navbar">
-            <li><button class="button">Story</button></li> 
-            <li><button class="button">Ingredients</button></li> 
-            <li><button class="button">Equipment</button></li> 
-            <li><button class="button">Process</button></li> 
-            <li><button class="button">Result</button></li> 
+            <li><form action="/index.html"><button class="button">Portfolio</button></form></li> 
+            <li><form action="/about.html"><button class="button">About</button></form></li> 
+            <li><form action="/contact.html"><button class="button">Contact</button></form></li> 
         </ul>
     </header><!-- .top -->
 
-    <aside class="ingredients">
-        <h2>Ingredients</h2>
+    <aside class="experience">
+        <h2 name="experience">Experience</h2>
         <h3><ul>
-            <li>• 1 1/8 Cups White Rice</li>
-            <li>• 3/4 Cups White Sugar</li>
-            <li>• Salt</li>
-            <li>• 2% Milk</li>
-            <li>• Cinnamon</li>
+            <li><img class="icon" src="img/AI Logo.png">Adobe Illustrator</li>
+            <br>
+            <li><img class="icon" src="img/PS Logo.png">Adobe Photoshop</li>
+            <br>
+            <li><img class="icon" src="img/AE Logo.png">Adobe After Effects</li>
+            <br>
+            <li><img class="icon" src="img/Maya Logo.png">Autodesk Maya</li>
+            <br>
+            <li><img class="icon" src="img/JS Logo.png">Javascript</li>
         </ul></h3>
-    </aside><!-- .ingredients -->
+    </aside><!-- .experience -->
 
-    <main class="process">
-        <h2>Process</h2>
-        <h3><p>
-        Mix rice with only as much water as necessary, boil
-        Mix 2% milk, sugar, and powder over low/medium heat
+    <main class="page_content">
         
-        Allow rice to boil for 15 minutes, stirring occasionally
-        Add milk mixture (only as much as is needed)
-        
-        Simmer for 20 minutes (or until skin layer begins to form).
-        If mixture gets too thick before rice is softened, add more milk mixture and continue stirring.
-        
-        Pour into small bowls and let sit for 5 minutes
-        Sprinkle some cinnamon on top (optional)
-        
-        Serve immediately for refigerate when cool.</p></h3>
-    <br><br>
-        <h2>Result</h2>
-        <h3>
-        <img src ="Rice Pudding.jpg" alt="Old-Fashioned Rice Pudding!" width="" height="">
-        </h3>
-        </h3>
+
+
+
+<div id="container">
+
+    <div id="header">
+      Portfolio
+    </div>
+    
+    <div id="menu">
+
+      <a href="#" id="menu_3d">
+        <svg id="Layer_1" style="margin-left:8px" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" width="16px" height="16px" viewBox="0 0 32 32"><defs><style>.cls-1{fill:#8585d6;}</style></defs><circle class="cls-1" cx="16" cy="16" r="16"/></svg>
+        3D
+      </a>
+
+      <a href="#" id="menu_app">
+        <svg id="Layer_2" style="margin-left:8px" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" width="16px" height="16px" viewBox="0 0 32 32"><defs><style>.cls-2{fill:#86D196;}</style></defs><circle class="cls-2" cx="16" cy="16" r="16"/></svg>
+        App Design
+      </a>
+      
+      <a href="#" id="menu_vector">
+        <svg id="Layer_3" style="margin-left:8px" data-name="Layer 3" xmlns="http://www.w3.org/2000/svg" width="16px" height="16px" viewBox="0 0 32 32"><defs><style>.cls-3{fill:#CECE86;}</style></defs><circle class="cls-3" cx="16" cy="16" r="16"/></svg>
+        Vector Art
+      </a>
+
+      <a href="#" id="menu_js">
+        <svg id="Layer_4" style="margin-left:8px" data-name="Layer 4" xmlns="http://www.w3.org/2000/svg" width="16px" height="16px" viewBox="0 0 32 32"><defs><style>.cls-4{fill:#D185D3;}</style></defs><circle class="cls-4" cx="16" cy="16" r="16"/></svg>
+        Javascript
+      </a>
+      
+     </div>
+    
+    <div id="content">
+      
+      <div id="content_3d">
+        <br>
+        <span class="iconrow">
+          Monopoly Game Board Recreation
+        </span>
+
+        <br>
+        <img id="portfolio_image" src="img/monopoly.jpeg">
+        <br>
+
+        <div class="iconrow">
+          <img class="icon" src="img/AI Logo.png">   <img class="icon" src="img/Maya Logo.png">
+        </div>
+        <br>
+        <span class="iconrow">
+          Board image created with Adobe Illustrator, modelled with Autodesk Maya, rendered in Arnold.
+        </span>
+        <br>
+      </div>
+      
+      <div id="content_app">
+        <br>
+        <span class="iconrow">
+          Coffee Lab App Design
+        </span>
+
+        <br>
+        <img id="portfolio_image" src="img/coffeelab.png">
+        <br>
+
+        <div class="iconrow">
+          <img class="icon" src="img/AI Logo.png">   <img class="icon" src="img/XD Logo.png">
+        </div>
+        <br>
+        <span class="iconrow">
+          Created with Adobe Illustrator, prototyped in Adobe XD.
+        </span>
+        <br>
+      </div>
+      
+      <div id="content_vector">
+        <br>
+        <span class="iconrow">
+          Philips Shaver Vector Recreation
+        </span>
+
+        <br>
+        <img id="portfolio_image" src="img/shaver.png">
+        <br>
+
+        <div class="iconrow">
+          <img class="icon" src="img/AI Logo.png">
+        </div>
+        <br>
+        <span class="iconrow">
+          Promotional art recreated with vector shapes in Adobe Illustrator
+        </span>
+        <br>
+      </div>
+
+
+      <div id="content_js">
+        <br>
+        <span class="iconrow">
+          Interactive Keyboard (click below)
+        </span>
+
+        <br>
+        <a href="https://michael-ingraldi.github.io/Piano-Project-v2/" target="_blank"><img id="portfolio_image" src="img/keyboard.png"></a>
+        <br>
+
+        <div class="iconrow">
+          <img class="icon" src="img/JS Logo.png">
+        </div>
+        <br>
+        <span class="iconrow">
+          Programmed with Visual Studio Code, published with Github
+        </span>
+        <br>
+      </div>
+
+
+    </div>
+
+  </div>
+  <br><br>
     </main><!-- .process -->
 
-    <aside id="content" class="equipment">
-        <h2>Equipment</h2>
+    <aside id="content" class="education">
+        <h2>Education</h2>
         <h3><ul>
-            <li>• Stove</li>
-            <li>• 2 Small pots</li>
-            <li>• Measuring Cup</li>
+            <li>• George Brown Interaction Design</li>
+
         </ul></h3>
     </aside><!-- #content .equipment -->
 
 
     <footer class="footer-content">
-        <span class="bg">© Michael Ingraldi 2020</span>
+        <span class="bg">© Michael Ingraldi 2021</span>
     </footer><!-- .footer-content -->
 
+    <script src="js/script.js" type="module"></script>
 </body>
 
 </html>

@@ -1,25 +1,39 @@
-$("body").css("background-color", "pink");
+//$("body").css("background-color", "pink");
+
+$("#content_3d").fadeIn("fast");
+$("#content_3d").siblings().fadeOut("fast");
 
 
-$(document).on("click", "#menu_about", function() {
 
-	$("#content_about").slideDown("slow");
-  $("#content_about").siblings().slideUp("fast");
+$(document).on("click", "#menu_3d", function() {
+  event.preventDefault()
+  $("#content_3d").siblings().fadeOut(0,function(){
+    $("#content_3d").fadeIn(250);
+});
 
 });
 
-$(document).on("click", "#menu_clients", function() {
-
-	$("#content_clients").slideDown("slow");
-  $("#content_clients").siblings().slideUp("fast");
+$(document).on("click", "#menu_app", function() {
+  event.preventDefault()
+  $("#content_app").siblings().fadeOut(0,function(){
+    $("#content_app").fadeIn(250);
+});
 
 });
 
-$(document).on("click", "#menu_contact", function() {
-
-	$("#content_contact").slideDown("slow");
-  $("#content_contact").siblings().slideUp("fast");
+$(document).on("click", "#menu_vector", function() {
+  event.preventDefault()
+  $("#content_vector").siblings().fadeOut(0,function(){
+    $("#content_vector").fadeIn(250);
+});
 
 });
 
-$("#menu_about").click();
+$(document).on("click", "#menu_js", function() {
+  event.preventDefault()
+  $("#content_js").siblings().fadeOut(0,function(){
+    $("#content_js").fadeIn(250);
+});
+
+});
+
